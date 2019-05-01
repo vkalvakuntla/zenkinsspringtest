@@ -29,7 +29,7 @@ public class DstsevthreereportControler {
 
 	@RequestMapping("/")
     public String redirtHome(){
-	
+	System.out.println("hello");
         return "dstcsaviews/home";
     }
  
